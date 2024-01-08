@@ -1,0 +1,427 @@
+2023-11-16 19:59:26.602 (5496): -----------------------------------------------------------------------------
+2023-11-16 19:59:26.602 (5496): Initializing fault reporting
+2023-11-16 19:59:26.602 (5496): Fault reporting log pathname: D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\tdeserver64-error000042b8.log
+2023-11-16 19:59:26.602 (5496): Initializing MiniDump
+2023-11-16 19:59:26.602 (5496): Loading 'DbgHelp.dll'
+2023-11-16 19:59:26.603 (5496): Loaded 'C:\Windows\SYSTEM32\DbgHelp.dll'
+2023-11-16 19:59:26.603 (5496):   Product Name: Microsoft® Windows® Operating System
+2023-11-16 19:59:26.603 (5496):   File Version: 10.0.19041.3570 (WinBuild.160101.0800)
+2023-11-16 19:59:26.603 (5496):   Product Version: 10.0.19041.3570
+2023-11-16 19:59:26.603 (5496): Finding function 'MiniDumpWriteDump'
+2023-11-16 19:59:26.604 (5496): Success
+2023-11-16 19:59:26.604 (5496): Registering unhandled exception filter
+2023-11-16 19:59:26.605 (5496): -----------------------------------------------------------------------------
+2023-11-16 19:59:26.605 (5496): Machine Configuration
+2023-11-16 19:59:26.605 (5496):   Max Descriptors: -1
+2023-11-16 19:59:26.607 (5496): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{A21EF73E-0A6A-4A97-AFA4-18D1BA937A86}
+2023-11-16 19:59:26.607 (5496): tdeserver: accepting new connection
+2023-11-16 19:59:26.607 (5496): tdeserver: new connection, connection=tab.pipe://./pipe/{A21EF73E-0A6A-4A97-AFA4-18D1BA937A86}
+2023-11-16 19:59:26.608 (18040): beginthread: recv, connection=tab.pipe://./pipe/{A21EF73E-0A6A-4A97-AFA4-18D1BA937A86}
+2023-11-16 19:59:26.608 (7564): beginthread: send, connection=tab.pipe://./pipe/{A21EF73E-0A6A-4A97-AFA4-18D1BA937A86}
+2023-11-16 19:59:26.608 (18040): tdeserver: open session, connection=tab.pipe://./pipe/{A21EF73E-0A6A-4A97-AFA4-18D1BA937A86}, sess_guid=1
+2023-11-16 19:59:26.608 (17644): Session1: QueryExecute:
+2023-11-16 19:59:26.608 (17644): (create database "D:\\软件库\\新建文件夹\\Talend-DataPreparation-Free-Desktop-windows-2.1.1\\115309281744754099.tde")
+2023-11-16 19:59:29.745 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:29.782 (5520): Session1: QueryExecute:
+2023-11-16 19:59:29.782 (5520): (create schema [Extract])
+2023-11-16 19:59:29.864 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:29.865 (17644): Session1: QueryExecute:
+2023-11-16 19:59:29.865 (17644): (create table [Extract].[Extract])
+2023-11-16 19:59:30.010 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:30.012 (5520): Session1: QueryExecute:
+2023-11-16 19:59:30.012 (5520): (create column [Extract].[Extract].[CustomerID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ))
+2023-11-16 19:59:30.334 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:30.334 (17644): Session1: QueryExecute:
+2023-11-16 19:59:30.334 (17644): (create column [Extract].[Extract].[Name] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 19:59:30.485 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:30.485 (5520): Session1: QueryExecute:
+2023-11-16 19:59:30.485 (5520): (create column [Extract].[Extract].[Address] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 19:59:30.599 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:30.599 (17644): Session1: QueryExecute:
+2023-11-16 19:59:30.599 (17644): (create column [Extract].[Extract].[Country] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 19:59:30.713 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:30.714 (5520): Session1: QueryExecute:
+2023-11-16 19:59:30.714 (5520): (create column [Extract].[Extract].[Email] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "4" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 19:59:30.831 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:30.831 (17644): Session1: QueryExecute:
+2023-11-16 19:59:30.831 (17644): (create column [Extract].[Extract].[OrderDate] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2023-11-16 19:59:30.945 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:30.945 (5520): Session1: QueryExecute:
+2023-11-16 19:59:30.945 (5520): (create column [Extract].[Extract].[ProductName] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "6" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 19:59:31.059 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:31.059 (17644): Session1: QueryExecute:
+2023-11-16 19:59:31.059 (17644): (create column [Extract].[Extract].[ProductID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2023-11-16 19:59:31.178 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:31.251 (5520): Session1: InsertOpen: table="Extract schema="Extract"
+2023-11-16 19:59:31.251 (5520):   column[0]="CustomerID"
+2023-11-16 19:59:31.251 (5520):   column[1]="Name"
+2023-11-16 19:59:31.251 (5520):   column[2]="Address"
+2023-11-16 19:59:31.251 (5520):   column[3]="Country"
+2023-11-16 19:59:31.251 (5520):   column[4]="Email"
+2023-11-16 19:59:31.251 (5520):   column[5]="OrderDate"
+2023-11-16 19:59:31.251 (5520):   column[6]="ProductName"
+2023-11-16 19:59:31.251 (5520):   column[7]="ProductID"
+2023-11-16 19:59:31.252 (5520): Session1: InsertCommit: insert_guid=1
+2023-11-16 19:59:31.973 (5520): Session1: InsertCommit: OK
+2023-11-16 19:59:31.973 (17644): Session1: InsertClose: insert_guid=1
+2023-11-16 19:59:31.973 (17644): Session1: InsertClose: OK
+2023-11-16 19:59:31.974 (5520): Session1: QueryExecute:
+2023-11-16 19:59:31.974 (5520): (package)
+2023-11-16 19:59:31.974 (5520): PackageDatabase: in-place package of "D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\115309281744754099.tde"
+2023-11-16 19:59:32.087 (5520): PackageDatabase: finished
+2023-11-16 19:59:32.087 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:32.087 (17644): Session1: QueryExecute:
+2023-11-16 19:59:32.087 (17644): (database "D:\\软件库\\新建文件夹\\Talend-DataPreparation-Free-Desktop-windows-2.1.1\\115309281744754099.tde")
+2023-11-16 19:59:32.088 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:32.088 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.088 (5520): (show schemas)
+2023-11-16 19:59:32.090 (5520): Elapsed time:0.001 sec
+2023-11-16 19:59:32.090 (5520): Compilation time:0.000 sec
+2023-11-16 19:59:32.090 (5520): Execution time:0.001 sec
+2023-11-16 19:59:32.090 (5520): Session1: QueryExecute: OK rowset_guid=2 n_columns=1
+2023-11-16 19:59:32.091 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.091 (5520): (show tables [Extract])
+2023-11-16 19:59:32.094 (5520): Elapsed time:0.003 sec
+2023-11-16 19:59:32.094 (5520): Compilation time:0.000 sec
+2023-11-16 19:59:32.094 (5520): Execution time:0.003 sec
+2023-11-16 19:59:32.094 (5520): Session1: QueryExecute: OK rowset_guid=3 n_columns=1
+2023-11-16 19:59:32.095 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.095 (5520): (top (table [Extract].[Extract]) () 0)
+2023-11-16 19:59:32.113 (5520): Elapsed time:0.018 sec
+2023-11-16 19:59:32.113 (5520): Compilation time:0.010 sec
+2023-11-16 19:59:32.113 (5520): Execution time:0.008 sec
+2023-11-16 19:59:32.113 (5520): Session1: QueryExecute: OK rowset_guid=4 n_columns=8
+2023-11-16 19:59:32.114 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.114 (5520): (alter column [Extract].[Extract].[CustomerID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.211 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:32.211 (17644): Session1: QueryExecute:
+2023-11-16 19:59:32.211 (17644): (alter column [Extract].[Extract].[Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.279 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:32.279 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.279 (5520): (alter column [Extract].[Extract].[Address] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.349 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:32.349 (17644): Session1: QueryExecute:
+2023-11-16 19:59:32.349 (17644): (alter column [Extract].[Extract].[Country] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.419 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:32.420 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.420 (5520): (alter column [Extract].[Extract].[Email] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.501 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:32.501 (17644): Session1: QueryExecute:
+2023-11-16 19:59:32.501 (17644): (alter column [Extract].[Extract].[OrderDate] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.579 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:32.579 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.579 (5520): (alter column [Extract].[Extract].[ProductName] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.655 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:32.655 (17644): Session1: QueryExecute:
+2023-11-16 19:59:32.655 (17644): (alter column [Extract].[Extract].[ProductID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 19:59:32.735 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:32.749 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.749 (5520): (top (table [Extract].[Extract]) () 0)
+2023-11-16 19:59:32.758 (5520): Elapsed time:0.009 sec
+2023-11-16 19:59:32.758 (5520): Compilation time:0.004 sec
+2023-11-16 19:59:32.758 (5520): Execution time:0.005 sec
+2023-11-16 19:59:32.758 (5520): Session1: QueryExecute: OK rowset_guid=5 n_columns=8
+2023-11-16 19:59:32.759 (5520): Session1: QueryExecute:
+2023-11-16 19:59:32.759 (5520): (sort [Extract].[Extract] ( ( [OrderDate] asc) ( [Country] asc) ( [ProductID] asc) ( [ProductName] asc) ( [Name] asc) ( [Email] asc) ( [CustomerID] asc) ( [Address] asc) ) )
+2023-11-16 19:59:33.400 (5520): Session1: QueryExecute: OK
+2023-11-16 19:59:33.400 (17644): Session1: QueryExecute:
+2023-11-16 19:59:33.400 (17644): (package)
+2023-11-16 19:59:33.400 (17644): PackageDatabase: in-place package of "D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\115309281744754099.tde"
+2023-11-16 19:59:33.491 (17644): PackageDatabase: finished
+2023-11-16 19:59:33.491 (17644): Session1: QueryExecute: OK
+2023-11-16 19:59:33.491 (18040): tdeserver: close session, connection=tab.pipe://./pipe/{A21EF73E-0A6A-4A97-AFA4-18D1BA937A86}, sess_guid=1
+2023-11-16 19:59:33.491 (5496): tdeserver: exit (0)
+2023-11-16 20:28:23.474 (8768): -----------------------------------------------------------------------------
+2023-11-16 20:28:23.474 (8768): Initializing fault reporting
+2023-11-16 20:28:23.474 (8768): Fault reporting log pathname: D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\tdeserver64-error000042a4.log
+2023-11-16 20:28:23.474 (8768): Initializing MiniDump
+2023-11-16 20:28:23.474 (8768): Loading 'DbgHelp.dll'
+2023-11-16 20:28:23.475 (8768): Loaded 'C:\Windows\SYSTEM32\DbgHelp.dll'
+2023-11-16 20:28:23.475 (8768):   Product Name: Microsoft® Windows® Operating System
+2023-11-16 20:28:23.475 (8768):   File Version: 10.0.19041.3570 (WinBuild.160101.0800)
+2023-11-16 20:28:23.475 (8768):   Product Version: 10.0.19041.3570
+2023-11-16 20:28:23.475 (8768): Finding function 'MiniDumpWriteDump'
+2023-11-16 20:28:23.476 (8768): Success
+2023-11-16 20:28:23.476 (8768): Registering unhandled exception filter
+2023-11-16 20:28:23.476 (8768): -----------------------------------------------------------------------------
+2023-11-16 20:28:23.476 (8768): Machine Configuration
+2023-11-16 20:28:23.476 (8768):   Max Descriptors: -1
+2023-11-16 20:28:23.478 (8768): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{47AFE528-9B0A-4020-9898-4B3C5632D0CB}
+2023-11-16 20:28:23.478 (8768): tdeserver: accepting new connection
+2023-11-16 20:28:23.478 (8768): tdeserver: new connection, connection=tab.pipe://./pipe/{47AFE528-9B0A-4020-9898-4B3C5632D0CB}
+2023-11-16 20:28:23.479 (22228): beginthread: recv, connection=tab.pipe://./pipe/{47AFE528-9B0A-4020-9898-4B3C5632D0CB}
+2023-11-16 20:28:23.479 (20364): beginthread: send, connection=tab.pipe://./pipe/{47AFE528-9B0A-4020-9898-4B3C5632D0CB}
+2023-11-16 20:28:23.479 (22228): tdeserver: open session, connection=tab.pipe://./pipe/{47AFE528-9B0A-4020-9898-4B3C5632D0CB}, sess_guid=1
+2023-11-16 20:28:23.480 (5912): Session1: QueryExecute:
+2023-11-16 20:28:23.480 (5912): (create database "D:\\软件库\\新建文件夹\\Talend-DataPreparation-Free-Desktop-windows-2.1.1\\3789958609290561115.tde")
+2023-11-16 20:28:25.535 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:25.565 (8956): Session1: QueryExecute:
+2023-11-16 20:28:25.565 (8956): (create schema [Extract])
+2023-11-16 20:28:25.612 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:25.613 (5912): Session1: QueryExecute:
+2023-11-16 20:28:25.613 (5912): (create table [Extract].[Extract])
+2023-11-16 20:28:25.716 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:25.718 (8956): Session1: QueryExecute:
+2023-11-16 20:28:25.718 (8956): (create column [Extract].[Extract].[CustomerID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ))
+2023-11-16 20:28:25.904 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:25.905 (5912): Session1: QueryExecute:
+2023-11-16 20:28:25.905 (5912): (create column [Extract].[Extract].[Name] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 20:28:26.002 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:26.002 (8956): Session1: QueryExecute:
+2023-11-16 20:28:26.002 (8956): (create column [Extract].[Extract].[Address] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 20:28:26.080 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:26.080 (5912): Session1: QueryExecute:
+2023-11-16 20:28:26.080 (5912): (create column [Extract].[Extract].[Country] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 20:28:26.151 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:26.152 (8956): Session1: QueryExecute:
+2023-11-16 20:28:26.152 (8956): (create column [Extract].[Extract].[Email] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "4" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 20:28:26.212 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:26.212 (5912): Session1: QueryExecute:
+2023-11-16 20:28:26.212 (5912): (create column [Extract].[Extract].[OrderDate] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2023-11-16 20:28:26.268 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:26.268 (8956): Session1: QueryExecute:
+2023-11-16 20:28:26.268 (8956): (create column [Extract].[Extract].[ProductName] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "6" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2023-11-16 20:28:26.337 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:26.337 (5912): Session1: QueryExecute:
+2023-11-16 20:28:26.337 (5912): (create column [Extract].[Extract].[ProductID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2023-11-16 20:28:26.427 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:26.493 (8956): Session1: InsertOpen: table="Extract schema="Extract"
+2023-11-16 20:28:26.493 (8956):   column[0]="CustomerID"
+2023-11-16 20:28:26.493 (8956):   column[1]="Name"
+2023-11-16 20:28:26.493 (8956):   column[2]="Address"
+2023-11-16 20:28:26.493 (8956):   column[3]="Country"
+2023-11-16 20:28:26.493 (8956):   column[4]="Email"
+2023-11-16 20:28:26.493 (8956):   column[5]="OrderDate"
+2023-11-16 20:28:26.493 (8956):   column[6]="ProductName"
+2023-11-16 20:28:26.493 (8956):   column[7]="ProductID"
+2023-11-16 20:28:26.496 (8956): Session1: InsertCommit: insert_guid=1
+2023-11-16 20:28:27.003 (8956): Session1: InsertCommit: OK
+2023-11-16 20:28:27.004 (5912): Session1: InsertClose: insert_guid=1
+2023-11-16 20:28:27.004 (5912): Session1: InsertClose: OK
+2023-11-16 20:28:27.004 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.004 (8956): (package)
+2023-11-16 20:28:27.005 (8956): PackageDatabase: in-place package of "D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\3789958609290561115.tde"
+2023-11-16 20:28:27.078 (8956): PackageDatabase: finished
+2023-11-16 20:28:27.078 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:27.078 (5912): Session1: QueryExecute:
+2023-11-16 20:28:27.078 (5912): (database "D:\\软件库\\新建文件夹\\Talend-DataPreparation-Free-Desktop-windows-2.1.1\\3789958609290561115.tde")
+2023-11-16 20:28:27.079 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:27.080 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.080 (8956): (show schemas)
+2023-11-16 20:28:27.082 (8956): Elapsed time:0.002 sec
+2023-11-16 20:28:27.082 (8956): Compilation time:0.000 sec
+2023-11-16 20:28:27.082 (8956): Execution time:0.002 sec
+2023-11-16 20:28:27.082 (8956): Session1: QueryExecute: OK rowset_guid=2 n_columns=1
+2023-11-16 20:28:27.083 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.083 (8956): (show tables [Extract])
+2023-11-16 20:28:27.087 (8956): Elapsed time:0.004 sec
+2023-11-16 20:28:27.087 (8956): Compilation time:0.000 sec
+2023-11-16 20:28:27.087 (8956): Execution time:0.004 sec
+2023-11-16 20:28:27.087 (8956): Session1: QueryExecute: OK rowset_guid=3 n_columns=1
+2023-11-16 20:28:27.087 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.087 (8956): (top (table [Extract].[Extract]) () 0)
+2023-11-16 20:28:27.121 (8956): Elapsed time:0.034 sec
+2023-11-16 20:28:27.121 (8956): Compilation time:0.025 sec
+2023-11-16 20:28:27.121 (8956): Execution time:0.009 sec
+2023-11-16 20:28:27.121 (8956): Session1: QueryExecute: OK rowset_guid=4 n_columns=8
+2023-11-16 20:28:27.122 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.122 (8956): (alter column [Extract].[Extract].[CustomerID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.207 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:27.207 (5912): Session1: QueryExecute:
+2023-11-16 20:28:27.207 (5912): (alter column [Extract].[Extract].[Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.249 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:27.250 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.250 (8956): (alter column [Extract].[Extract].[Address] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.318 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:27.318 (5912): Session1: QueryExecute:
+2023-11-16 20:28:27.318 (5912): (alter column [Extract].[Extract].[Country] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.366 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:27.366 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.366 (8956): (alter column [Extract].[Extract].[Email] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.417 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:27.417 (5912): Session1: QueryExecute:
+2023-11-16 20:28:27.417 (5912): (alter column [Extract].[Extract].[OrderDate] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.471 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:27.471 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.471 (8956): (alter column [Extract].[Extract].[ProductName] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.526 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:27.526 (5912): Session1: QueryExecute:
+2023-11-16 20:28:27.526 (5912): (alter column [Extract].[Extract].[ProductID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2023-11-16 20:28:27.587 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:27.587 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.587 (8956): (top (table [Extract].[Extract]) () 0)
+2023-11-16 20:28:27.592 (8956): Elapsed time:0.005 sec
+2023-11-16 20:28:27.592 (8956): Compilation time:0.002 sec
+2023-11-16 20:28:27.592 (8956): Execution time:0.003 sec
+2023-11-16 20:28:27.593 (8956): Session1: QueryExecute: OK rowset_guid=5 n_columns=8
+2023-11-16 20:28:27.594 (8956): Session1: QueryExecute:
+2023-11-16 20:28:27.594 (8956): (sort [Extract].[Extract] ( ( [OrderDate] asc) ( [Country] asc) ( [ProductID] asc) ( [ProductName] asc) ( [Name] asc) ( [Email] asc) ( [CustomerID] asc) ( [Address] asc) ) )
+2023-11-16 20:28:27.930 (8956): Session1: QueryExecute: OK
+2023-11-16 20:28:27.930 (5912): Session1: QueryExecute:
+2023-11-16 20:28:27.930 (5912): (package)
+2023-11-16 20:28:27.930 (5912): PackageDatabase: in-place package of "D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\3789958609290561115.tde"
+2023-11-16 20:28:27.985 (5912): PackageDatabase: finished
+2023-11-16 20:28:27.985 (5912): Session1: QueryExecute: OK
+2023-11-16 20:28:27.986 (22228): tdeserver: close session, connection=tab.pipe://./pipe/{47AFE528-9B0A-4020-9898-4B3C5632D0CB}, sess_guid=1
+2023-11-16 20:28:27.986 (8768): tdeserver: exit (0)
+2024-01-07 05:39:42.041 (10192): -----------------------------------------------------------------------------
+2024-01-07 05:39:42.041 (10192): Initializing fault reporting
+2024-01-07 05:39:42.041 (10192): Fault reporting log pathname: D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\tdeserver64-error00001e70.log
+2024-01-07 05:39:42.041 (10192): Initializing MiniDump
+2024-01-07 05:39:42.041 (10192): Loading 'DbgHelp.dll'
+2024-01-07 05:39:42.042 (10192): Loaded 'C:\Windows\SYSTEM32\DbgHelp.dll'
+2024-01-07 05:39:42.042 (10192):   Product Name: Microsoft® Windows® Operating System
+2024-01-07 05:39:42.042 (10192):   File Version: 10.0.19041.3636 (WinBuild.160101.0800)
+2024-01-07 05:39:42.042 (10192):   Product Version: 10.0.19041.3636
+2024-01-07 05:39:42.042 (10192): Finding function 'MiniDumpWriteDump'
+2024-01-07 05:39:42.044 (10192): Success
+2024-01-07 05:39:42.044 (10192): Registering unhandled exception filter
+2024-01-07 05:39:42.044 (10192): -----------------------------------------------------------------------------
+2024-01-07 05:39:42.044 (10192): Machine Configuration
+2024-01-07 05:39:42.044 (10192):   Max Descriptors: -1
+2024-01-07 05:39:42.045 (10192): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{1092CF37-DC4D-4FB9-B0D8-32DCF781FAE9}
+2024-01-07 05:39:42.045 (10192): tdeserver: accepting new connection
+2024-01-07 05:39:42.045 (10192): tdeserver: new connection, connection=tab.pipe://./pipe/{1092CF37-DC4D-4FB9-B0D8-32DCF781FAE9}
+2024-01-07 05:39:42.045 (13036): beginthread: recv, connection=tab.pipe://./pipe/{1092CF37-DC4D-4FB9-B0D8-32DCF781FAE9}
+2024-01-07 05:39:42.045 (17832): beginthread: send, connection=tab.pipe://./pipe/{1092CF37-DC4D-4FB9-B0D8-32DCF781FAE9}
+2024-01-07 05:39:42.045 (13036): tdeserver: open session, connection=tab.pipe://./pipe/{1092CF37-DC4D-4FB9-B0D8-32DCF781FAE9}, sess_guid=1
+2024-01-07 05:39:42.046 (21672): Session1: QueryExecute:
+2024-01-07 05:39:42.046 (21672): (create database "D:\\软件库\\新建文件夹\\Talend-DataPreparation-Free-Desktop-windows-2.1.1\\2662329941555655462.tde")
+2024-01-07 05:39:44.805 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:45.037 (11572): Session1: QueryExecute:
+2024-01-07 05:39:45.037 (11572): (create schema [Extract])
+2024-01-07 05:39:45.089 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:45.089 (21672): Session1: QueryExecute:
+2024-01-07 05:39:45.089 (21672): (create table [Extract].[Extract])
+2024-01-07 05:39:45.196 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:45.200 (11572): Session1: QueryExecute:
+2024-01-07 05:39:45.200 (11572): (create column [Extract].[Extract].[CustomerID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "0" ) ))
+2024-01-07 05:39:45.433 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:45.434 (21672): Session1: QueryExecute:
+2024-01-07 05:39:45.434 (21672): (create column [Extract].[Extract].[Age] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "1" ) ))
+2024-01-07 05:39:45.524 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:45.525 (11572): Session1: QueryExecute:
+2024-01-07 05:39:45.525 (11572): (create column [Extract].[Extract].[Gender] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2024-01-07 05:39:45.616 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:45.617 (21672): Session1: QueryExecute:
+2024-01-07 05:39:45.617 (21672): (create column [Extract].[Extract].[Location] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2024-01-07 05:39:45.708 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:45.709 (11572): Session1: QueryExecute:
+2024-01-07 05:39:45.709 (11572): (create column [Extract].[Extract].[MembershipLevel] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "4" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2024-01-07 05:39:45.800 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:45.800 (21672): Session1: QueryExecute:
+2024-01-07 05:39:45.800 (21672): (create column [Extract].[Extract].[TotalPurchases] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "5" ) ))
+2024-01-07 05:39:45.889 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:45.889 (11572): Session1: QueryExecute:
+2024-01-07 05:39:45.889 (11572): (create column [Extract].[Extract].[TotalSpent] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "6" ) ))
+2024-01-07 05:39:45.979 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:45.979 (21672): Session1: QueryExecute:
+2024-01-07 05:39:45.979 (21672): (create column [Extract].[Extract].[FavoriteCategory] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "7" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2024-01-07 05:39:46.089 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:46.090 (11572): Session1: QueryExecute:
+2024-01-07 05:39:46.090 (11572): (create column [Extract].[Extract].[Occupation] ( ( "collation" "en_GB" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "8" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2024-01-07 05:39:46.182 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:46.182 (21672): Session1: QueryExecute:
+2024-01-07 05:39:46.182 (21672): (create column [Extract].[Extract].[WebsiteVisits] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "9" ) ))
+2024-01-07 05:39:46.275 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:46.275 (11572): Session1: QueryExecute:
+2024-01-07 05:39:46.275 (11572): (create column [Extract].[Extract].[Churn] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "10" ) ))
+2024-01-07 05:39:46.367 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:46.368 (21672): Session1: QueryExecute:
+2024-01-07 05:39:46.368 (21672): (create column [Extract].[Extract].[LastPurchaseDate] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "11" ) ))
+2024-01-07 05:39:46.476 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:46.664 (11572): Session1: InsertOpen: table="Extract schema="Extract"
+2024-01-07 05:39:46.664 (11572):   column[0]="CustomerID"
+2024-01-07 05:39:46.664 (11572):   column[1]="Age"
+2024-01-07 05:39:46.664 (11572):   column[2]="Gender"
+2024-01-07 05:39:46.664 (11572):   column[3]="Location"
+2024-01-07 05:39:46.664 (11572):   column[4]="MembershipLevel"
+2024-01-07 05:39:46.664 (11572):   column[5]="TotalPurchases"
+2024-01-07 05:39:46.664 (11572):   column[6]="TotalSpent"
+2024-01-07 05:39:46.664 (11572):   column[7]="FavoriteCategory"
+2024-01-07 05:39:46.664 (11572):   column[8]="Occupation"
+2024-01-07 05:39:46.664 (11572):   column[9]="WebsiteVisits"
+2024-01-07 05:39:46.664 (11572):   column[10]="Churn"
+2024-01-07 05:39:46.664 (11572):   column[11]="LastPurchaseDate"
+2024-01-07 05:39:46.710 (11572): Session1: InsertCommit: insert_guid=1
+2024-01-07 05:39:47.580 (11572): Session1: InsertCommit: OK
+2024-01-07 05:39:47.581 (21672): Session1: InsertClose: insert_guid=1
+2024-01-07 05:39:47.581 (21672): Session1: InsertClose: OK
+2024-01-07 05:39:47.582 (11572): Session1: QueryExecute:
+2024-01-07 05:39:47.582 (11572): (package)
+2024-01-07 05:39:47.582 (11572): PackageDatabase: in-place package of "D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\2662329941555655462.tde"
+2024-01-07 05:39:47.685 (11572): PackageDatabase: finished
+2024-01-07 05:39:47.685 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:47.685 (21672): Session1: QueryExecute:
+2024-01-07 05:39:47.685 (21672): (database "D:\\软件库\\新建文件夹\\Talend-DataPreparation-Free-Desktop-windows-2.1.1\\2662329941555655462.tde")
+2024-01-07 05:39:47.686 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:47.686 (11572): Session1: QueryExecute:
+2024-01-07 05:39:47.686 (11572): (show schemas)
+2024-01-07 05:39:47.688 (11572): Elapsed time:0.001 sec
+2024-01-07 05:39:47.688 (11572): Compilation time:0.000 sec
+2024-01-07 05:39:47.688 (11572): Execution time:0.001 sec
+2024-01-07 05:39:47.688 (11572): Session1: QueryExecute: OK rowset_guid=2 n_columns=1
+2024-01-07 05:39:47.688 (11572): Session1: QueryExecute:
+2024-01-07 05:39:47.688 (11572): (show tables [Extract])
+2024-01-07 05:39:47.691 (11572): Elapsed time:0.003 sec
+2024-01-07 05:39:47.691 (11572): Compilation time:0.000 sec
+2024-01-07 05:39:47.691 (11572): Execution time:0.003 sec
+2024-01-07 05:39:47.691 (11572): Session1: QueryExecute: OK rowset_guid=3 n_columns=1
+2024-01-07 05:39:47.692 (11572): Session1: QueryExecute:
+2024-01-07 05:39:47.692 (11572): (top (table [Extract].[Extract]) () 0)
+2024-01-07 05:39:47.710 (11572): Elapsed time:0.018 sec
+2024-01-07 05:39:47.710 (11572): Compilation time:0.010 sec
+2024-01-07 05:39:47.710 (11572): Execution time:0.008 sec
+2024-01-07 05:39:47.711 (11572): Session1: QueryExecute: OK rowset_guid=4 n_columns=12
+2024-01-07 05:39:47.712 (11572): Session1: QueryExecute:
+2024-01-07 05:39:47.712 (11572): (alter column [Extract].[Extract].[CustomerID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:47.797 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:47.798 (21672): Session1: QueryExecute:
+2024-01-07 05:39:47.798 (21672): (alter column [Extract].[Extract].[Age] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:47.855 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:47.855 (11572): Session1: QueryExecute:
+2024-01-07 05:39:47.855 (11572): (alter column [Extract].[Extract].[Gender] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:47.909 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:47.909 (21672): Session1: QueryExecute:
+2024-01-07 05:39:47.909 (21672): (alter column [Extract].[Extract].[Location] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:47.958 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:47.958 (11572): Session1: QueryExecute:
+2024-01-07 05:39:47.958 (11572): (alter column [Extract].[Extract].[MembershipLevel] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.022 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:48.022 (21672): Session1: QueryExecute:
+2024-01-07 05:39:48.022 (21672): (alter column [Extract].[Extract].[TotalPurchases] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.103 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:48.103 (11572): Session1: QueryExecute:
+2024-01-07 05:39:48.103 (11572): (alter column [Extract].[Extract].[TotalSpent] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.156 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:48.156 (21672): Session1: QueryExecute:
+2024-01-07 05:39:48.156 (21672): (alter column [Extract].[Extract].[FavoriteCategory] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.216 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:48.216 (11572): Session1: QueryExecute:
+2024-01-07 05:39:48.216 (11572): (alter column [Extract].[Extract].[Occupation] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.275 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:48.275 (21672): Session1: QueryExecute:
+2024-01-07 05:39:48.275 (21672): (alter column [Extract].[Extract].[WebsiteVisits] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.332 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:48.332 (11572): Session1: QueryExecute:
+2024-01-07 05:39:48.332 (11572): (alter column [Extract].[Extract].[Churn] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.375 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:48.375 (21672): Session1: QueryExecute:
+2024-01-07 05:39:48.375 (21672): (alter column [Extract].[Extract].[LastPurchaseDate] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2024-01-07 05:39:48.431 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:48.431 (11572): Session1: QueryExecute:
+2024-01-07 05:39:48.431 (11572): (top (table [Extract].[Extract]) () 0)
+2024-01-07 05:39:48.437 (11572): Elapsed time:0.005 sec
+2024-01-07 05:39:48.437 (11572): Compilation time:0.002 sec
+2024-01-07 05:39:48.437 (11572): Execution time:0.003 sec
+2024-01-07 05:39:48.437 (11572): Session1: QueryExecute: OK rowset_guid=5 n_columns=12
+2024-01-07 05:39:48.438 (11572): Session1: QueryExecute:
+2024-01-07 05:39:48.438 (11572): (sort [Extract].[Extract] ( ( [LastPurchaseDate] asc) ( [Gender] asc) ( [Churn] asc) ( [MembershipLevel] asc) ( [Occupation] asc) ( [FavoriteCategory] asc) ( [Location] asc) ( [WebsiteVisits] asc) ( [Age] asc) ( [TotalPurchases] asc) ( [TotalSpent] asc) ( [CustomerID] asc) ) )
+2024-01-07 05:39:49.109 (11572): Session1: QueryExecute: OK
+2024-01-07 05:39:49.109 (21672): Session1: QueryExecute:
+2024-01-07 05:39:49.109 (21672): (package)
+2024-01-07 05:39:49.109 (21672): PackageDatabase: in-place package of "D:\软件库\新建文件夹\Talend-DataPreparation-Free-Desktop-windows-2.1.1\2662329941555655462.tde"
+2024-01-07 05:39:49.168 (21672): PackageDatabase: finished
+2024-01-07 05:39:49.168 (21672): Session1: QueryExecute: OK
+2024-01-07 05:39:49.168 (13036): tdeserver: close session, connection=tab.pipe://./pipe/{1092CF37-DC4D-4FB9-B0D8-32DCF781FAE9}, sess_guid=1
+2024-01-07 05:39:49.168 (10192): tdeserver: exit (0)
